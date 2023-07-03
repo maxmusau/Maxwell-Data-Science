@@ -9,7 +9,9 @@ def Division(num1,num2):
 # Division(num2=10, num1=50)
 def Simple_Interest(p,r,t):
     SI=p*t*r /100
-    print(SI)
+    
+    # print(SI)
+    return SI
 # Simple_Interest(30000, 4, 2)
 # create a program to grade students based on their performance, use marks,name as parameter
 def performance(marks,name):
@@ -35,4 +37,5 @@ def performance(marks,name):
         print("Performance = GRade A")
         
     else:
+        print("Invalid input")
 performance(80, "Kasyoki")
